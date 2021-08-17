@@ -1,0 +1,70 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  background-image: linear-gradient(to right, #1d976c, #93f9b9, #219a6f);
+  background-size: cover;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 35px;
+}
+
+.head {
+  font-size: 35px;
+  font-style: bold;
+}
+.desc {
+  color: #e4e7eb;
+  font-size: 16px;
+}
+
+.result-card {
+  background-color: aliceblue;
+  padding: 5px;
+  width: 50%;
+  margin: 20px;
+}
+
+.head-count {
+  color: #1d976c;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.search-input {
+  color: #e4e7eb;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 60%;
+  height: 30px;
+  border: 2 #e4e7eb;
+  margin-left: 16px;
+  outline: none;
+}
+.right-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 300px;
+  width: 300px;
+}
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+}
